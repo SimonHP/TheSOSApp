@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF69260B27C2C1920035E5E4 /* TheSOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69260A27C2C1920035E5E4 /* TheSOSAppApp.swift */; };
+		EF69260D27C2C1920035E5E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69260C27C2C1920035E5E4 /* ContentView.swift */; };
+		EF69260F27C2C1930035E5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF69260E27C2C1930035E5E4 /* Assets.xcassets */; };
+		EF69261227C2C1940035E5E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF69261127C2C1940035E5E4 /* Preview Assets.xcassets */; };
+		EF783314284A49670043EFEA /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF783313284A49670043EFEA /* About.swift */; };
+		EF783318284A5B500043EFEA /* kneesurgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF783317284A5B500043EFEA /* kneesurgery.swift */; };
+		EF78331A284A5B940043EFEA /* kneereplacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF783319284A5B940043EFEA /* kneereplacement.swift */; };
+		EF78331C284A5BAB0043EFEA /* footandankle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF78331B284A5BAB0043EFEA /* footandankle.swift */; };
+		EF78331E284A5BC40043EFEA /* bunion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF78331D284A5BC40043EFEA /* bunion.swift */; };
+		EF783320284A5BD90043EFEA /* keyhole.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF78331F284A5BD90043EFEA /* keyhole.swift */; };
+		EF783322284A5C030043EFEA /* anklerep.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF783321284A5C030043EFEA /* anklerep.swift */; };
+		EF783324284A5C200043EFEA /* shockwave.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF783323284A5C200043EFEA /* shockwave.swift */; };
+		EFDDA407284FDA09002C721B /* research.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDA406284FDA09002C721B /* research.swift */; };
+		EFDDA40B284FDD85002C721B /* njr.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDA40A284FDD85002C721B /* njr.swift */; };
+		EFDDA40D284FE256002C721B /* risk.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDA40C284FE254002C721B /* risk.swift */; };
+		EFDDA40F284FE434002C721B /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDA40E284FE433002C721B /* info.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF69260727C2C1920035E5E4 /* TheSOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF69260A27C2C1920035E5E4 /* TheSOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSOSAppApp.swift; sourceTree = "<group>"; };
+		EF69260C27C2C1920035E5E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF69260E27C2C1930035E5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF69261127C2C1940035E5E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF783313284A49670043EFEA /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		EF783317284A5B500043EFEA /* kneesurgery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kneesurgery.swift; sourceTree = "<group>"; };
+		EF783319284A5B940043EFEA /* kneereplacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kneereplacement.swift; sourceTree = "<group>"; };
+		EF78331B284A5BAB0043EFEA /* footandankle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footandankle.swift; sourceTree = "<group>"; };
+		EF78331D284A5BC40043EFEA /* bunion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bunion.swift; sourceTree = "<group>"; };
+		EF78331F284A5BD90043EFEA /* keyhole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyhole.swift; sourceTree = "<group>"; };
+		EF783321284A5C030043EFEA /* anklerep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anklerep.swift; sourceTree = "<group>"; };
+		EF783323284A5C200043EFEA /* shockwave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shockwave.swift; sourceTree = "<group>"; };
+		EFDDA406284FDA09002C721B /* research.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = research.swift; sourceTree = "<group>"; };
+		EFDDA40A284FDD85002C721B /* njr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = njr.swift; sourceTree = "<group>"; };
+		EFDDA40C284FE254002C721B /* risk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = risk.swift; sourceTree = "<group>"; };
+		EFDDA40E284FE433002C721B /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF69260427C2C1910035E5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6925FE27C2C1910035E5E4 = {
+			isa = PBXGroup;
+			children = (
+				EF69260927C2C1920035E5E4 /* TheSOSApp */,
+				EF69260827C2C1920035E5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF69260827C2C1920035E5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF69260727C2C1920035E5E4 /* TheSOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF69260927C2C1920035E5E4 /* TheSOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				EF69260A27C2C1920035E5E4 /* TheSOSAppApp.swift */,
+				EF69260C27C2C1920035E5E4 /* ContentView.swift */,
+				EF783313284A49670043EFEA /* About.swift */,
+				EF783317284A5B500043EFEA /* kneesurgery.swift */,
+				EF783319284A5B940043EFEA /* kneereplacement.swift */,
+				EF78331B284A5BAB0043EFEA /* footandankle.swift */,
+				EF78331D284A5BC40043EFEA /* bunion.swift */,
+				EF78331F284A5BD90043EFEA /* keyhole.swift */,
+				EF783321284A5C030043EFEA /* anklerep.swift */,
+				EF783323284A5C200043EFEA /* shockwave.swift */,
+				EFDDA406284FDA09002C721B /* research.swift */,
+				EFDDA40A284FDD85002C721B /* njr.swift */,
+				EFDDA40C284FE254002C721B /* risk.swift */,
+				EFDDA40E284FE433002C721B /* info.swift */,
+				EF69260E27C2C1930035E5E4 /* Assets.xcassets */,
+				EF69261027C2C1940035E5E4 /* Preview Content */,
+			);
+			path = TheSOSApp;
+			sourceTree = "<group>";
+		};
+		EF69261027C2C1940035E5E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF69261127C2C1940035E5E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF69260627C2C1910035E5E4 /* TheSOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF69261527C2C1940035E5E4 /* Build configuration list for PBXNativeTarget "TheSOSApp" */;
+			buildPhases = (
+				EF69260327C2C1910035E5E4 /* Sources */,
+				EF69260427C2C1910035E5E4 /* Frameworks */,
+				EF69260527C2C1910035E5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSOSApp;
+			productName = TheSOSApp;
+			productReference = EF69260727C2C1920035E5E4 /* TheSOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6925FF27C2C1910035E5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EF69260627C2C1910035E5E4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF69260227C2C1910035E5E4 /* Build configuration list for PBXProject "TheSOSApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6925FE27C2C1910035E5E4;
+			productRefGroup = EF69260827C2C1920035E5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF69260627C2C1910035E5E4 /* TheSOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF69260527C2C1910035E5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF69261227C2C1940035E5E4 /* Preview Assets.xcassets in Resources */,
+				EF69260F27C2C1930035E5E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF69260327C2C1910035E5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF783318284A5B500043EFEA /* kneesurgery.swift in Sources */,
+				EF783320284A5BD90043EFEA /* keyhole.swift in Sources */,
+				EF69260D27C2C1920035E5E4 /* ContentView.swift in Sources */,
+				EF783322284A5C030043EFEA /* anklerep.swift in Sources */,
+				EF783314284A49670043EFEA /* About.swift in Sources */,
+				EF783324284A5C200043EFEA /* shockwave.swift in Sources */,
+				EFDDA40B284FDD85002C721B /* njr.swift in Sources */,
+				EF78331E284A5BC40043EFEA /* bunion.swift in Sources */,
+				EF78331A284A5B940043EFEA /* kneereplacement.swift in Sources */,
+				EFDDA407284FDA09002C721B /* research.swift in Sources */,
+				EF69260B27C2C1920035E5E4 /* TheSOSAppApp.swift in Sources */,
+				EFDDA40F284FE434002C721B /* info.swift in Sources */,
+				EF78331C284A5BAB0043EFEA /* footandankle.swift in Sources */,
+				EFDDA40D284FE256002C721B /* risk.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF69261327C2C1940035E5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF69261427C2C1940035E5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF69261627C2C1940035E5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"TheSOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.TheSOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF69261727C2C1940035E5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"TheSOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.TheSOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF69260227C2C1910035E5E4 /* Build configuration list for PBXProject "TheSOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF69261327C2C1940035E5E4 /* Debug */,
+				EF69261427C2C1940035E5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF69261527C2C1940035E5E4 /* Build configuration list for PBXNativeTarget "TheSOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF69261627C2C1940035E5E4 /* Debug */,
+				EF69261727C2C1940035E5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6925FF27C2C1910035E5E4 /* Project object */;
+}
